@@ -6,10 +6,12 @@ package com.rdc.fishtracker.main;
  */
 public interface MainContract {
     interface MVPView {
-
+        void showSignInScreen();
+        void showSignUpScreen();
     }
     interface MVPPresenter {
-
+        void handleSignInButtonClick();
+        void handleSignUpButtonClick();
     }
 
 }
